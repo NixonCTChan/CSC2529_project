@@ -15,8 +15,6 @@ import glob
 class BokehGenerator:
     """Generates realistic bokeh (depth-of-field blur) effects using depth estimation."""
     
-    """Generates realistic bokeh (depth-of-field blur) effects using depth estimation."""
-    
     def __init__(self, device=None):
         """Initialize bokeh generator with optional device specification.
         
